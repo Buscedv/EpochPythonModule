@@ -1,4 +1,4 @@
-# Epoch Python Module
+# PyEpoch
 Python module that can convert timezones, set time and calculate seconds since the UNIX epoch
 
 
@@ -7,7 +7,7 @@ Python module that can convert timezones, set time and calculate seconds since t
 Download the epoch.py file and then import it into your python project.
 
 ```python3
-import epoch
+import pyepoch
 ```
 
 <br>
@@ -18,7 +18,7 @@ How to use the functions in your code.
 
 ```python
 # Gets todays date.
-today = epoch.today()
+today = pyepoch.today()
 ```
 
 <br>
@@ -36,7 +36,7 @@ Returns todays date using datetime.datetime
 
 ```python
 # Gets todays date.
-today = epoch.today()
+today = pyepoch.today()
 >>> 2018, 11, 8, 11, 32, 59, 744692
 ```
 
@@ -55,9 +55,9 @@ The function takes two parameters:<br>
 
 ```python
 # Gets todays date.
-today = epoch.today()
+today = pyepoch.today()
 # Seconds since the epoch.
-today = epoch.epoch_sec(today, 'US/Pacific')
+today = pyepoch.epoch_sec(today, 'US/Pacific')
 >>> 
 ```
 
@@ -80,9 +80,9 @@ The function takes five parameters:<br>
 
 ```python
 # Gets todays date.
-today = epoch.today()
+today = pyepoch.today()
 # Midnight pacific time today.
-today = epoch.timezone(today, 'US/Pacific', 0, 0, 0)
+today = pyepoch.timezone(today, 'US/Pacific', 0, 0, 0)
 >>> 2018-11-08 08:00:00-08:00
 ```
 
