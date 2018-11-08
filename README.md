@@ -25,7 +25,7 @@ today = pyepoch.today()
 
 # Documentation
 
-Full documentation of all the functions:
+Full documentation on all the functions:
 
 ## Today()
 
@@ -58,7 +58,7 @@ The function takes two parameters:<br>
 today = pyepoch.today()
 # Seconds since the epoch.
 today = pyepoch.epoch_sec(today, 'US/Pacific')
->>> 
+>>> 2018, 11, 8, 11, 32, 59, 744692-08:00
 ```
 
 
