@@ -86,7 +86,9 @@ today = epoch.timezone(today, 'US/Pacific', 0, 0, 0)
 >>> 2018-11-08 08:00:00-08:00
 ```
 
+# Examples
 
+You can download the 'example.py' file to see the functions in action.
 
 # Contact
 emial: <a href="mailto:edvard1807@gmail.com">edvard1807@gmail.com</a>
