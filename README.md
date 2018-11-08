@@ -1,4 +1,4 @@
-# EpochPythonModule
+# Epoch Python Module
 Python module that can convert timezones, set time and calculate seconds since the UNIX epoch
 
 
@@ -28,7 +28,7 @@ today = epoch.today()
 Full documentation of all the functions:
 
 ## Today()
-<br>
+
 ### The today() function
 Returns todays date using datetime.datetime
 
@@ -43,13 +43,14 @@ today = epoch.today()
 <br>
 
 ## Epoch_Sec()
-<br>
+
+
 ### The epoch_sec() function
 Returns seconds to a passed in date since the UNIX epoch (1970, 1 , 1)
 The function takes two parameters:<br>
 - A date: a datetime object
 - A timezone: a timezone string, ex. 'US/Pacific'
-<br>
+
 ### Ex.
 
 ```python
@@ -60,10 +61,11 @@ today = epoch.epoch_sec(today, 'US/Pacific')
 >>> 
 ```
 
-<br>
+
 
 ## Timezone_Set()
-<br>
+
+
 ### The timezone_set() function
 Returns a passed in time in another timezone (also passed in) and sets the hour/minute/second in the passed in date.
 The function takes five parameters:<br>
@@ -72,7 +74,8 @@ The function takes five parameters:<br>
 - Hour int
 - Minute int
 - Second int
-<br>
+
+
 ### Ex.
 
 ```python
@@ -83,7 +86,8 @@ today = epoch.timezone(today, 'US/Pacific', 0, 0, 0)
 >>> 2018-11-08 08:00:00-08:00
 ```
 
-<br>
+
+
 # Contact
 emial: <a href="mailto:edvard1807@gmail.com">edvard1807@gmail.com</a>
 github: <a href="https://github.com/buscedv" traget="blank">@Buscedv</a>
