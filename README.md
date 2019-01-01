@@ -94,4 +94,4 @@ You can download the 'example.py' file to see the functions in action.
 emial: <a href="mailto:edvard1807@gmail.com">edvard1807@gmail.com</a>
 github: <a href="https://github.com/buscedv" traget="blank">@Buscedv</a>
 <br><br>
-Edvard Busck-Nielsen 2018
+Edvard Busck-Nielsen 2019
